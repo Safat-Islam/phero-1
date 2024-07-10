@@ -1,0 +1,220 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar section start  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-weight: 800;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+}
+.resume{
+    padding: 17px 24px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    margin-right: 160px;
+}
+/* navbar section end  */
+
+/* hero section start */
+.hero{
+    margin-top: 30px;
+    height: 652px;
+    background-position: center;
+    background-image: url('../assets/Hero-bg.png');
+    width: 100%;
+    background-repeat:no-repeat;
+    background-size:cover ;
+
+    
+}
+.pic{
+    width: 240.28px;
+    height: 240px;
+    
+    margin-left: 40%;
+    margin-right: 40%
+    
+}
+.pic img{
+    margin-top: 26px;
+    
+}
+.hero .title-1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero .hero-content .title-1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero-content{
+    margin-top: 32px;
+}
+.hero .hero-content .discribtion{
+    
+    color: #767a77;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.btn{
+    width: 208px;
+    height: 66px;
+    margin-left: 41%;
+    margin-top: 32px;
+    background-color: rgb(13, 19, 33);
+    color: white;
+    border-radius: 8px;
+    font-size: 21px;
+}
+/* hero section end */
+/* web development section start */
+.web-dev{
+    width: 1140px;
+    height: 1395px;
+   
+    background-color:  rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    margin-top: 74px;
+}
+.web-content{
+    width: 946px;
+    height: 1235px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.web-container{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    margin-top: 80px;
+    
+}
+.web-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.web-describtion{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(66, 67, 69);;
+}
+/*  */
+.border{
+    width: 1140px;
+    height: 777px;
+    border: 2px solid saddlebrown;
+    margin: 0 auto;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 80px;
+}
+.inspiration{
+    
+    width: 1140px;
+    height: 614px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin: 0 auto;
+}
+.ins-title{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.ins-con{
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+.ins-video{
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 27px;
+    border-radius: 16px;
+    
+    
+}
+iframe{
+    border-radius: 16px;
+}
+/*  */
+
+.target{
+    width: 1140px;
+    height: 463px;
+    border: 2px solid darkmagenta;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.t-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.t-des{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/* web development section end */
